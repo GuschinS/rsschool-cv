@@ -7,8 +7,8 @@
 
 **Phone:** +48 797 807 995<br>
 **E-mail:** guschins@gmail.com<br>
-[LinkedIn](https://www.linkedin.com/in/sergei-gushchin/)<br>
-[GitHub](https://github.com/GuschinS)
+**LinkedIn:** [sergei-gushchin](https://www.linkedin.com/in/sergei-gushchin/)<br>
+**GitHub:** [GuschinS](https://github.com/GuschinS)
 
 ***
 
@@ -50,11 +50,11 @@ Major: Construction and Research of Motor Vehicles
 
 ### Online classes
 
-[HTML Academy](https://htmlacademy.ru/) HTML, CSS, JS<br>
-[Sololearn](https://www.sololearn.com/learning/1024) JavaScript<br>
-[EdX](https://www.edx.org/course/cs50s-web-programming-with-python-and-javascript) CS50's Web Programming with Python and JavaScript<br>
-[Udacity](https://www.udacity.com/course/front-end-web-developer-nanodegree--nd0011) Front-End Web Developer<br>
-[FreeCodeCamp](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/) JavaScript Algorithms and Data Structures<br>
+[HTML Academy](https://htmlacademy.ru/): HTML, CSS, JS<br>
+[Sololearn](https://www.sololearn.com/learning/1024): JavaScript<br>
+[EdX](https://www.edx.org/course/cs50s-web-programming-with-python-and-javascript): CS50's Web Programming with Python and JavaScript<br>
+[Udacity](https://www.udacity.com/course/front-end-web-developer-nanodegree--nd0011): Front-End Web Developer<br>
+[FreeCodeCamp](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/): JavaScript Algorithms and Data Structures<br>
 
 ***
 

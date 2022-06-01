@@ -1,0 +1,23 @@
+.body {
+    display: flex;
+    width: auto;
+    height: auto;
+}
+
+/* .top-bar {
+    width: auto;
+    height: 10rem;
+    background-color: rgb(156, 178, 199);
+}
+
+.mine {
+    width: auto;
+    height: 30rem;
+    background-color: rgb(255, 255, 255);
+}
+
+.footer {
+    width: auto;
+    height: 10rem;
+    background-color: rgb(156, 178, 199);
+} */

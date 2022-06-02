@@ -59,16 +59,24 @@ main {
     width: auto;
     height: auto;
     background-color: rgb(255, 255, 255);
-    padding: 5rem;
+    padding-bottom: 5rem;
 }
 
 ul {
     list-style-type: none;
 }
 
-main li {
+main ul {
     padding-left: 2rem;
 }
+
+main ul p {
+    padding-left: 2rem;
+}
+
+/* section #code code {
+    padding-left: 4rem;
+} */
 
 main a:hover,
 footer a:hover {
@@ -76,14 +84,14 @@ footer a:hover {
     font-weight: bold;
 }
 
-section h2,
-article h2 {
+section p,
+article p {
     padding-left: 2rem
 }
 
-section p,
-article p {
-    padding-left: 4rem
+section,
+article {
+    padding-left: 2rem
 }
 
 code {
@@ -92,7 +100,11 @@ code {
     border: 1px solid #999;
     display: block;
     padding: 1rem;
-    margin-left: 4rem;
+    margin-left: 2rem;
+  }
+
+  #code code .tab {
+      tab-size: 4;
   }
 
 footer {

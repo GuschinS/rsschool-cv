@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,9 +8,152 @@
     <link rel="stylesheet" href="./style.css">
     <title>Document</title>
 </head>
+
 <body>
-    <div class="top-bar"></div>
-    <div class="mine"></div>
-    <div class="footer"></div>
+    <header>
+        <div class="photo">
+            <img src="img/new_photo.jpg" alt="photo_SG">
+        </div>
+        <div class="info">
+            <h1>Sergei Gushchin</h1>
+            <h2>Junior Frontend Developer</h2>
+        </div>
+    </header>
+    <nav>
+        <ul class="nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#contact-information">Contact information</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#skils">Skills at a Glance</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#code">Code example</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#education">Education</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#classes">Online classes</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#lang">Languages</a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <ul id="contact-information">
+            <li>
+                <h2>Contact information:</h2>
+            </li>
+            <li>
+                <p>Phone: <a href="tel:+48797807995">+48 797 807 995</a></p>
+            </li>
+            <li>
+                <p>E-mail: <a href="mailto:guschins@gmail.com">guschins@gmail.com</a></p>
+            </li>
+            <li>
+                <p>LinkedIn: <a href="https://www.linkedin.com/in/sergei-gushchin/" target="_blank">sergei-gushchin</a>
+                </p>
+            </li>
+            <li>
+                <p>GitHub: <a href="https://github.com/GuschinS" target="_blank">GuschinS</a></p>
+            </li>
+        </ul>
+        <article id="about">
+            <h2>About</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. At quaerat asperiores rem quia, laudantium
+                pariatur commodi exercitationem impedit voluptatum. Aut laboriosam quos tenetur itaque doloribus fugiat!
+                Deleniti placeat enim, nihil quis laudantium sit voluptate, exercitationem quo commodi animi ipsa soluta
+                odio aliquid corporis obcaecati atque fugit facere aperiam voluptatem iusto. Quas assumenda veniam
+                laboriosam suscipit at ab sunt molestias labore, iste quod commodi necessitatibus, placeat beatae nemo
+                voluptatem et nihil quos? Quaerat facilis commodi rem quis sint laborum odit temporibus distinctio eos
+                dolore quos consectetur, praesentium fuga explicabo quo aspernatur corporis sapiente ut repudiandae
+                aliquid est hic fugiat saepe. Consectetur magni non delectus a impedit temporibus ea esse eligendi quo
+                unde dolorum vero ut deserunt, itaque explicabo provident praesentium? Rem.
+            </p>
+        </article>
+        <ul id="skils">
+            <li>
+                <h2>Skills at a Glance:</h2>
+            </li>
+            <li>
+                <p>Languages: JavaScript, HTML5, CSS3.</p>
+            </li>
+            <li>
+                <p>Frameworks: Angular, React.</p>
+            </li>
+            <li>
+                <p>Other: Git/GitHub.</p>
+            </li>
+        </ul>
+        <section id="code">
+            <h2>Code</h2>
+            <code>
+                function createPhoneNumber(numbers) {<br>
+                &emsp;&emsp; let arr1 = numbers.splice(0, 3);<br>
+                &emsp;&emsp; let arr2 = numbers.splice(0, 3);<br>
+                &emsp;&emsp; let arr3 = numbers.splice(0, 4);<br>
+                &emsp;&emsp; const str = `(${arr1.join('')}) ${arr2.join('')}-${arr3.join('')}`<br>
+                <br>
+                &emsp;&emsp; return str<br>
+                }
+            </code>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <p>
+               <a href="https://narfu.ru/en/" target="_blank">Arkhangelsk State Technical University - Engineer</a>
+            </p>
+            <p>
+                Major: Construction and Research of Motor Vehicles
+            </p>
+        </section>
+        <ul id="classes">
+            <li>
+                <h2>Online classes:</h2>
+            </li>
+            <li>
+                <p>HTML Academy: <a href="https://htmlacademy.ru/" target="_blank">HTML, CSS, JS</a></p>
+            </li>
+            <li>
+                <p>Sololearn: <a href="https://www.sololearn.com/learning/1024" target="_blank">JavaScript</a></p>
+            </li>
+            <li>
+                <p>EdX: <a href="https://www.edx.org/course/cs50s-web-programming-with-python-and-javascript" target="_blank">CS50's Web Programming with Python and JavaScript</a>
+                </p>
+            </li>
+            <li>
+                <p>Udacity: <a href="https://www.udacity.com/course/front-end-web-developer-nanodegree--nd0011" target="_blank">Front-End Web Developer</a></p>
+            </li>
+            <li>
+                <p>FreeCodeCamp: <a href="https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/" target="_blank">JavaScript Algorithms and Data Structures</a></p>
+            </li>
+        </ul>
+        <section id="lang">
+            <h2>Languages</h2>
+            <p>Russian - Native</p>
+            <p>Polish - Intermediate</p>
+            <p>English - Elementary</p>
+        </section>
+    </main>
+    <footer>
+        <div class="github">
+            <span>GitHub:</span>
+            <a href="https://github.com/GuschinS">GuschinS.</a>
+            <span>2022.</span>
+        </div>
+        <div class="rs">
+            <a href="https://rs.school/js/">
+                <img src="img/rs_school_js.svg" alt="rs_school_js">
+            </a>
+        </div>
+    </footer>
 </body>
+
 </html>

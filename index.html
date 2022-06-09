@@ -2,15 +2,133 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./favicon-32x32.ico" type="image/x-icon">
-    <link rel="stylesheet" href="./style.css">
-    <title>CV Sergei Gushchin</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./favicon-32x32.ico" type="image/x-icon">
+  <link rel="stylesheet" href="./style.css">
+  <title>CV Sergei Gushchin</title>
 </head>
 
 <body>
+  <div class="container">
+    <header>
+      <div class="photo">
+        <img src="img/new_photo.jpg" alt="photo_SG">
+      </div>
+      <div class="info">
+        <h1>Sergei Gushchin</h1>
+        <h2>Junior Frontend Developer</h2>
+      </div>
+    </header>
+    <nav>
+      <ul class="nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#contact-information">Contact information</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#skils">Skills at a Glance</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#code">Code example</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#projects">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#education">Education</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#classes">Online classes</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#lang">Languages</a>
+        </li>
+      </ul>
+    </nav>
+    <main>
+      <ul id="contact-information">
+        <li>
+          <h2>Contact information:</h2>
+        </li>
+        <li>
+          <p>Phone: <a href="tel:+48797807995">+48 797 807 995</a></p>
+        </li>
+        <li>
+          <p>E-mail: <a href="mailto:guschins@gmail.com">guschins@gmail.com</a></p>
+        </li>
+        <li>
+          <p>LinkedIn: <a href="https://www.linkedin.com/in/sergei-gushchin/" target="_blank">sergei-gushchin</a>
+          </p>
+        </li>
+        <li>
+          <p>GitHub: <a href="https://github.com/GuschinS" target="_blank">GuschinS</a></p>
+        </li>
+      </ul>
+      <article id="about">
+        <h2>About</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. At quaerat asperiores rem quia, laudantium
+          pariatur commodi exercitationem impedit voluptatum. Aut laboriosam quos tenetur itaque doloribus
+          fugiat!
+          Deleniti placeat enim, nihil quis laudantium sit voluptate, exercitationem quo commodi animi ipsa
+          soluta
+          odio aliquid corporis obcaecati atque fugit facere aperiam voluptatem iusto. Quas assumenda veniam
+          laboriosam suscipit at ab sunt molestias labore, iste quod commodi necessitatibus, placeat beatae
+          nemo
+          voluptatem et nihil quos? Quaerat facilis commodi rem quis sint laborum odit temporibus distinctio
+          eos
+          dolore quos consectetur, praesentium fuga explicabo quo aspernatur corporis sapiente ut repudiandae
+          aliquid est hic fugiat saepe. Consectetur magni non delectus a impedit temporibus ea esse eligendi
+          quo
+          unde dolorum vero ut deserunt, itaque explicabo provident praesentium? Rem.
+        </p>
+      </article>
+      <ul id="skils">
+        <li>
+          <h2>Skills at a Glance:</h2>
+        </li>
+        <li>
+          <p>Languages: JavaScript, HTML5, CSS3.</p>
+        </li>
+        <li>
+          <p>Frameworks: Angular, React.</p>
+        </li>
+        <li>
+          <p>Other: Git/GitHub.</p>
+        </li>
+      </ul>
+      <section id="code">
+        <h2>Code</h2>
+        <pre>
+          <code>
+            function createPhoneNumber(numbers) {
+            let arr1 = numbers.splice(0, 3);
+            let arr2 = numbers.splice(0, 3);
+            let arr3 = numbers.splice(0, 4);
+            const str = `(${arr1.join('')}) ${arr2.join('')}-${arr3.join('')}`
+
+            return str
+            }
+          </code>
+        </pre>
+      </section>
+      <section id="projects">
+        <div>
+          <h2>Projects:</h2>
+        </div>
+        <div>
+          <h4>This project uses API restcountries</h4>
+          <p>Instructions:</p>
+          <p>Run ng serve for a dev server. Navigate to http://localhost:4200/. The application will
+            automatically reload if you change any of the source files.</p>
+          <img src="img/angular_gwo_small.png" alt="project uses API restcountries">
+          <p><a href="https://guschins.github.io/gwo/" target="_blank">Demo</a></p>
+          <p><a href="https://github.com/GuschinS/gwo/" target="_blank">See code</a></p>
+        </div>
 
 </body>
 

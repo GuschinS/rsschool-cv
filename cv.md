@@ -14,7 +14,7 @@
 
 ### About
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. At quaerat asperiores rem quia, laudantium pariatur commodi exercitationem impedit voluptatum. Aut laboriosam quos tenetur itaque doloribus fugiat! Deleniti placeat enim, nihil quis laudantium sit voluptate, exercitationem quo commodi animi ipsa soluta odio aliquid corporis obcaecati atque fugit facere aperiam voluptatem iusto. Quas assumenda veniam laboriosam suscipit at ab sunt molestias labore, iste quod commodi necessitatibus, placeat beatae nemo voluptatem et nihil quos? Quaerat facilis commodi rem quis sint laborum odit temporibus distinctio eos dolore quos consectetur, praesentium fuga explicabo quo aspernatur corporis sapiente ut repudiandae aliquid est hic fugiat saepe. Consectetur magni non delectus a impedit temporibus ea esse eligendi quo unde dolorum vero ut deserunt, itaque explicabo provident praesentium? Rem.
+I have no commercial experience yet, but I help nonprofit organizations and activists to create and maintain Web pages as a volunteer. Now, I am changing my main occupation and looking for a job in IT area. My strengths are the ability to structure tasks, prioritize, be flexible and take responsibility. I have been living in Poland for 8 years and I am a citizen of Poland.
 
 ***
 
